@@ -1,7 +1,7 @@
 # actix-rest-api
 Trying simple rest-api using actixweb, serde, postgresql and sqlx
 
-Database migrations were made with dbmate
+Database migrations were made with [dbmate](https://github.com/amacneil/dbmate)
 
 ```
 dbmate --url DATABASE_URL up
@@ -14,7 +14,7 @@ environment variable in
 .cargo/config.toml 
 ```
 
-you may create dir with file in current dir using template:
+you may create dir with file in current dir using template, more in [cargo book](https://doc.rust-lang.org/cargo/reference/environment-variables.html):
 
 ```
 [env]
