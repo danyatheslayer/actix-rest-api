@@ -32,11 +32,11 @@ cargo run
 #[get("/todolist/entries")] // to get all entries
 ```
 ```
-#[post("/todolist/entries/{id}")] //with JSON {"title"="{something}", "date"=1669298264} to add entries
+#[post("/todolist/entries/{id}")] // with JSON {"title"="{something}", "date"=1669298264} to add entries
 ```
 ```
-#[put("/todolist/entries/{id}")] with JSON {"title"="{something}"} to update enties
+#[put("/todolist/entries/{id}")] // with JSON {"title"="{something}"} to update enties
 ```
 ```
-#[delete("/todolist/entries/{id}")] to delete entries
+#[delete("/todolist/entries/{id}")] // to delete entries
 ```
