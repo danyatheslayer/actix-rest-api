@@ -18,7 +18,7 @@ you may create dir with file in current dir using template, more in [cargo book]
 
 ```
 [env]
-DATABASE_URL="postgres://user:pass@localhost:5432/todolist?sslmode=disable"
+DATABASE_URL="postgresql://user:pass@localhost:5432/todolist?sslmode=disable"
 ```
 
 
